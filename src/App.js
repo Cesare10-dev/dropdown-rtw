@@ -1,9 +1,10 @@
 import "./App.css";
+import Dropdown from "./Dropdown";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="bg-red-200">Hello</h1>
+    <div className="h-screen grid place-items-center">
+      <Dropdown />
     </div>
   );
 }
